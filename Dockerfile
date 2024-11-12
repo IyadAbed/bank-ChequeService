@@ -22,4 +22,4 @@ ENV TZ=Asia/Amman
 RUN mvn clean install
 
 #Start the application
-ENTRYPOINT ["java", "-jar", "target/BANK-CHECKS-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "target/bankChecks-0.0.1-SNAPSHOT.jar"]
